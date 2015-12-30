@@ -22,8 +22,9 @@ int main(int argc, const char * argv[]) {
     
     [nan play:child];
     [nan wash:child];
-    NSLog(@"12345678~");
-    
+    NSLog(@"rtyuio");
+    NSLog(@"rtyuio");
+
     
     
     [[NSRunLoop currentRunLoop]run];
