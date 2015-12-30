@@ -25,6 +25,7 @@ int main(int argc, const char * argv[]) {
     NSLog(@"测试中……………………");
     
     
+    NSLog(@"新的测试");
     
     [[NSRunLoop currentRunLoop]run];
     
