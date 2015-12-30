@@ -31,6 +31,7 @@ int main(int argc, const char * argv[]) {
     NSLog(@"second");
     
     
+    NSLog(@"新的测试");
     
     [[NSRunLoop currentRunLoop]run];
     
