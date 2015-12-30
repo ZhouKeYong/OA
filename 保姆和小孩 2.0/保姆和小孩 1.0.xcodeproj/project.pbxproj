@@ -1,0 +1,260 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34DF462A1BC8F4E10042B34C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DF46291BC8F4E10042B34C /* main.m */; };
+		34DF46321BC8F4F30042B34C /* Chidren.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DF46311BC8F4F30042B34C /* Chidren.m */; };
+		34DF46351BC8F52B0042B34C /* Nanny.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DF46341BC8F52B0042B34C /* Nanny.m */; };
+		34DF46381BC8F76A0042B34C /* Nurse.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DF46371BC8F76A0042B34C /* Nurse.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		34DF46241BC8F4E10042B34C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		34DF46261BC8F4E10042B34C /* 保姆和小孩 1.0 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "保姆和小孩 1.0"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34DF46291BC8F4E10042B34C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34DF46301BC8F4F30042B34C /* Chidren.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chidren.h; sourceTree = "<group>"; };
+		34DF46311BC8F4F30042B34C /* Chidren.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chidren.m; sourceTree = "<group>"; };
+		34DF46331BC8F52B0042B34C /* Nanny.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nanny.h; sourceTree = "<group>"; };
+		34DF46341BC8F52B0042B34C /* Nanny.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nanny.m; sourceTree = "<group>"; };
+		34DF46361BC8F76A0042B34C /* Nurse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nurse.h; sourceTree = "<group>"; };
+		34DF46371BC8F76A0042B34C /* Nurse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nurse.m; sourceTree = "<group>"; };
+		34DF46391BC8F8980042B34C /* ChildrenDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildrenDelegate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34DF46231BC8F4E10042B34C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34DF461D1BC8F4E10042B34C = {
+			isa = PBXGroup;
+			children = (
+				34DF46281BC8F4E10042B34C /* 保姆和小孩 1.0 */,
+				34DF46271BC8F4E10042B34C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34DF46271BC8F4E10042B34C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34DF46261BC8F4E10042B34C /* 保姆和小孩 1.0 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34DF46281BC8F4E10042B34C /* 保姆和小孩 1.0 */ = {
+			isa = PBXGroup;
+			children = (
+				34DF46291BC8F4E10042B34C /* main.m */,
+				34DF46391BC8F8980042B34C /* ChildrenDelegate.h */,
+				34DF46301BC8F4F30042B34C /* Chidren.h */,
+				34DF46311BC8F4F30042B34C /* Chidren.m */,
+				34DF46331BC8F52B0042B34C /* Nanny.h */,
+				34DF46341BC8F52B0042B34C /* Nanny.m */,
+				34DF46361BC8F76A0042B34C /* Nurse.h */,
+				34DF46371BC8F76A0042B34C /* Nurse.m */,
+			);
+			path = "保姆和小孩 1.0";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34DF46251BC8F4E10042B34C /* 保姆和小孩 1.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34DF462D1BC8F4E10042B34C /* Build configuration list for PBXNativeTarget "保姆和小孩 1.0" */;
+			buildPhases = (
+				34DF46221BC8F4E10042B34C /* Sources */,
+				34DF46231BC8F4E10042B34C /* Frameworks */,
+				34DF46241BC8F4E10042B34C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "保姆和小孩 1.0";
+			productName = "保姆和小孩 1.0";
+			productReference = 34DF46261BC8F4E10042B34C /* 保姆和小孩 1.0 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34DF461E1BC8F4E10042B34C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = oahgnehzoul;
+				TargetAttributes = {
+					34DF46251BC8F4E10042B34C = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 34DF46211BC8F4E10042B34C /* Build configuration list for PBXProject "保姆和小孩 1.0" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 34DF461D1BC8F4E10042B34C;
+			productRefGroup = 34DF46271BC8F4E10042B34C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34DF46251BC8F4E10042B34C /* 保姆和小孩 1.0 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34DF46221BC8F4E10042B34C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34DF46351BC8F52B0042B34C /* Nanny.m in Sources */,
+				34DF462A1BC8F4E10042B34C /* main.m in Sources */,
+				34DF46321BC8F4F30042B34C /* Chidren.m in Sources */,
+				34DF46381BC8F76A0042B34C /* Nurse.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		34DF462B1BC8F4E10042B34C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		34DF462C1BC8F4E10042B34C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		34DF462E1BC8F4E10042B34C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		34DF462F1BC8F4E10042B34C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34DF46211BC8F4E10042B34C /* Build configuration list for PBXProject "保姆和小孩 1.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34DF462B1BC8F4E10042B34C /* Debug */,
+				34DF462C1BC8F4E10042B34C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34DF462D1BC8F4E10042B34C /* Build configuration list for PBXNativeTarget "保姆和小孩 1.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34DF462E1BC8F4E10042B34C /* Debug */,
+				34DF462F1BC8F4E10042B34C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34DF461E1BC8F4E10042B34C /* Project object */;
+}
