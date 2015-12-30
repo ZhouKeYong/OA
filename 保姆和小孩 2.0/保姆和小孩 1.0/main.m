@@ -22,9 +22,14 @@ int main(int argc, const char * argv[]) {
     
     [nan play:child];
     [nan wash:child];
+<<<<<<< HEAD
     NSLog(@"rtyuio");
     NSLog(@"rtyuio");
 
+=======
+    NSLog(@"测试中……………………");
+    
+>>>>>>> 86557145beaeeb83fafc88414afe5bd9acfdda3c
     
     
     [[NSRunLoop currentRunLoop]run];
